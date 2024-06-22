@@ -101,7 +101,7 @@
                             </div>
                             <div class="col-md-7 d-flex justify-content-center align-item-center">
                                 <div class="form-img-div">
-                                    <img src="<?=base_url('assets/images/icons/2.png')?>" alt="mobairu" class="img-fluid">
+                                    <img src="<?=base_url('assets/images/icons/1.png')?>" alt="mobairu" class="img-fluid">
 
                                     <!-- <video autoplay="" muted="" loop="" id="myVideo">
                                         <source src="<?=base_url('assets/images/icons/mob.mp4')?>" type="video/mp4">
