@@ -28,6 +28,10 @@ body {
   overflow-x: hidden;
 }
 
+.cont-div {
+  padding: 2rem;
+}
+
 .logo_img {
   width: 80px;
   height: auto;

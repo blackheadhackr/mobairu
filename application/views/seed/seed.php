@@ -36,7 +36,7 @@
 
 
 
-        <div class="row g-5 p-4">
+        <div class="row g-5 cont-div">
             <div class="col-md-12">
                 <!-- breadcrum start  -->
                 <!-- breadcrum start  -->
@@ -251,7 +251,7 @@
                     <!-- review cursole section -->
                     
                     <section class="my-2">
-                        <div class="container p-4">
+                        <div class="container p-2">
                             <h3 class="mb-3">FAQ <a href="#">Dharmender</a></h3>
                             <div class="accordion accordion-flush" id="accordionFlushExample">
                                 <div class="accordion-item rounded-3 border-0 shadow mb-2">

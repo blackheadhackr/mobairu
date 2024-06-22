@@ -77,6 +77,9 @@
     display: none;
     
 }
+.cont-div{
+  padding: 1rem;;
+}
 .drp {
   padding: .5rem;
   border:2.5px solid #fae858;
@@ -157,6 +160,9 @@
     .top-header {
         height: 30vh;
       }
+      .cont-div{
+        padding: 1rem;;
+      }
       .banner-text{
         display: none;
       }
@@ -190,6 +196,9 @@
         background-color: #000;
         color:#fff;
         overflow-x: hidden;
+      }
+      .cont-div{
+        padding: 1rem;;
       }
       .blog-post-title{
         font-size: 15px;
