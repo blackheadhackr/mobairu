@@ -341,58 +341,8 @@
         integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous">
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script>
-    const multipleItemCarousel = document.querySelector("#testimonialCarousel");
-
-    if (window.matchMedia("(min-width:576px)").matches) {
-        const carousel = new bootstrap.Carousel(multipleItemCarousel, {
-            interval: false // Disable Bootstrap's built-in interval
-        });
-
-        var carouselWidth = $(".carousel-inner")[0].scrollWidth;
-        var cardWidth = $(".carousel-item").width();
-        var scrollPosition = 0;
-        var autoSlideInterval = 3000; // 3 seconds
-
-        function nextSlide() {
-            if (scrollPosition < carouselWidth - cardWidth * 3) {
-                scrollPosition += cardWidth;
-                $(".carousel-inner").animate({
-                    scrollLeft: scrollPosition
-                }, 800);
-            } else {
-                scrollPosition = 0;
-                $(".carousel-inner").animate({
-                    scrollLeft: scrollPosition
-                }, 800);
-            }
-        }
-
-        // Handle next slide button click
-        $(".carousel-control-next").on("click", function() {
-            nextSlide();
-        });
-
-        // Handle previous slide button click
-        $(".carousel-control-prev").on("click", function() {
-            if (scrollPosition > 0) {
-                scrollPosition -= cardWidth;
-                $(".carousel-inner").animate({
-                    scrollLeft: scrollPosition
-                }, 800);
-            }
-        });
-
-        // Auto slide functionality
-        setInterval(function() {
-            nextSlide();
-        }, autoSlideInterval);
-
-    } else {
-        // For smaller screens, add Bootstrap class for sliding automatically
-        $(multipleItemCarousel).addClass("slide");
-    }
-    </script>
+    <!-- review slider -->
+    
 </body>
 
 </html>
