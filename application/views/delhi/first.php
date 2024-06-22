@@ -89,6 +89,7 @@
                             the
                             type of issues and overall extent of damage, etc. </p>
                     </section>
+                    
                     <!-- review cursole section -->
                     <section class="my-2">
                     <?php $this->load->view('common/review'); ?>

@@ -10,6 +10,11 @@
     <title>Blog Template · Bootstrap v5.0</title>
 <!-- common css and all-link include here  -->
     <?php $this->load->view('common/head'); ?>
+    <style>
+        .form_heading{
+            text-align:center;
+        }
+    </style>
 </head>
 
 <body>
@@ -39,9 +44,7 @@
                 <!-- breadcrum start end -->
                 <!-- breadcrum start end -->
                 <hr class="hr">
-                <!-- mobile form load -->
-                 <?php $this->load->view('common/mobile_form') ?>
-
+                
                 <article class="blog-post pb-4 mb-4">
                     <!-- h1 section here -->
                     <section class="my-2">
@@ -89,6 +92,19 @@
                             the
                             type of issues and overall extent of damage, etc. </p>
                     </section>
+                    <!-- form section  -->
+                    <div class="container-sm">
+                        <div class="row">
+                            <div class="col-md-6 p-2">
+                                <?php $this->load->view('common/form'); ?>
+                                <?php $this->load->view('common/mobile_form') ?>
+                            </div>
+                            <div class="col-md-6 p-5">
+                                <img src="<?=base_url('assets/images/icons/iphone.png')?>" alt="mobairu" class="img-fluid">
+                            </div>
+                           
+                        </div>
+                    </div>
                     <section class="my-2">
                     <?php $this->load->view('common/review'); ?>
 
@@ -106,6 +122,7 @@
 
 
 
+                            <div class="container">
                             <table id="customers">
                                 <tr>
                                     <!-- <th class="hd">S. No.</th> -->
@@ -123,6 +140,7 @@
                                     <td>₹2999</td>
                                 </tr>
                             </table>
+                            </div>
                             
 
 
@@ -322,9 +340,7 @@
 
             </div>
 
-            <!-- <div class="col-md-4">
-                <?php $this->load->view('common/form'); ?>
-            </div> -->
+            
         </div>
 
     </main>

@@ -34,7 +34,6 @@
         </form>
     </div>
 </div>
-</div>
 
 <script>
 const typedText = document.querySelector(".typed-text");
