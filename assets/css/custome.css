@@ -262,6 +262,17 @@ button#send-message {
   background: #1571e3;
 }
 
+.form-img-div {
+  width: 100%;
+  height: auto;
+  padding: 6rem;
+}
+
+.form-img-div > img {
+  width: 100%;
+  height: auto;
+}
+
 .reqbtn {
   font-size: 1.2rem;
   font-weight: 800;

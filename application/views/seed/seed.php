@@ -95,12 +95,14 @@
                     <!-- form section  -->
                     <div class="container-sm">
                         <div class="row">
-                            <div class="col-md-6 p-2">
+                            <div class="col-md-5 p-2">
                                 <?php $this->load->view('common/form'); ?>
                                 <?php $this->load->view('common/mobile_form') ?>
                             </div>
-                            <div class="col-md-6 p-5">
-                                <img src="<?=base_url('assets/images/icons/iphone.png')?>" alt="mobairu" class="img-fluid">
+                            <div class="col-md-7 d-flex justify-content-center align-item-center">
+                                <div class="form-img-div">
+                                    <img src="<?=base_url('assets/images/icons/iphone.png')?>" alt="mobairu" class="img-fluid">
+                                </div>
                             </div>
                            
                         </div>

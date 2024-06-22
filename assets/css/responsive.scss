@@ -53,6 +53,9 @@
 .mobile-form{
   display: none;
 }
+.form-img-div{
+  padding: 3rem;
+}
     
     
     
@@ -106,6 +109,9 @@
   color: #fff;
   font-size: 1.3rem;
   font-weight: 600;
+}
+.form-img-div{
+  padding: 3rem;
 }
 .reqbtn {
   font-size: 0.8rem;
@@ -165,6 +171,9 @@
         font-size: 1.3rem;
         font-weight: 600;
       }
+      .form-img-div{
+        padding: 1rem;
+      }
 }
  
 /* For Mobile Landscape View */
@@ -193,6 +202,9 @@
         background-clip: text;
         z-index: 9999;
       
+    }
+    .form-img-div{
+      padding: 1rem;
     }
     .heading_septrater {
       margin: auto;
