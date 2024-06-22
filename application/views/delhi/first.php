@@ -89,6 +89,11 @@
                             the
                             type of issues and overall extent of damage, etc. </p>
                     </section>
+                    <!-- review cursole section -->
+                    <section class="my-2">
+                    <?php $this->load->view('common/review'); ?>
+
+                    </section>
                     <!-- table -->
                     <section class="my-2">
                         <h2 class="blog-post-title">List of Mobairu's iPhone Repair Services in Nehru Place: </h2>
@@ -220,11 +225,7 @@
                             today. </p>
                     </section> -->
 
-                    <!-- review cursole section -->
-                    <section class="my-2">
-                    <?php $this->load->view('common/review'); ?>
-
-                    </section>
+                    
                     <section class="my-2">
                         <div class="container p-4">
                             <h3 class="mb-3">FAQ <a href="#">Dharmender</a></h3>

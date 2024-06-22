@@ -68,6 +68,11 @@
                         <div class="heading_septrater"></div>
                         <p class="service_offer_para">The <strong>cost of iPhone repair starts from INR with an Assured Warranty of up to 1 year</strong>. The exact cost of repair purely varies depending on the type of issues and overall extent of damage, etc. </p>
                     </section>
+                    <!-- review cursole section -->
+                    <section class="my-2">
+                    <?php $this->load->view('common/review'); ?>
+
+                    </section>
                     <!-- table -->
                     <section class="my-2">
                         <h2 class="blog-post-title">List of Mobairu's iPhone Repair Services in Gurgaon</h2>
@@ -177,11 +182,7 @@
                             today. </p>
                     </section> -->
 
-                    <!-- review cursole section -->
-                    <section class="my-2">
-                    <?php $this->load->view('common/review'); ?>
-
-                    </section>
+                    
                     <section class="my-2">
                         <div class="container p-4">
                             <h3 class="mb-3">FAQ <a href="#">Dharmender</a></h3>

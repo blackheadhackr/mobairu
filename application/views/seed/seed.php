@@ -31,8 +31,8 @@
 
 
 
-        <div class="row g-5">
-            <div class="col-md-8">
+        <div class="row g-5 p-4">
+            <div class="col-md-12">
                 <!-- breadcrum start  -->
                 <!-- breadcrum start  -->
                 <?php $this->load->view('common/brd'); ?>
@@ -88,6 +88,10 @@
                                 Warranty of up to 1 year</strong>. The exact cost of repair purely varies depending on
                             the
                             type of issues and overall extent of damage, etc. </p>
+                    </section>
+                    <section class="my-2">
+                    <?php $this->load->view('common/review'); ?>
+
                     </section>
                     <!-- table -->
                     <section class="my-2">
@@ -221,10 +225,7 @@
                     </section> -->
 
                     <!-- review cursole section -->
-                    <section class="my-2">
-                    <?php $this->load->view('common/review'); ?>
-
-                    </section>
+                    
                     <section class="my-2">
                         <div class="container p-4">
                             <h3 class="mb-3">FAQ <a href="#">Dharmender</a></h3>
@@ -321,10 +322,9 @@
 
             </div>
 
-            <div class="col-md-4">
-                <!-- this is for common form on everypage  -->
+            <!-- <div class="col-md-4">
                 <?php $this->load->view('common/form'); ?>
-            </div>
+            </div> -->
         </div>
 
     </main>
@@ -342,7 +342,58 @@
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <!-- review slider -->
-    
+    <script>
+        const multipleItemCarousel = document.querySelector("#testimonialCarousel");
+
+        if (window.matchMedia("(min-width:576px)").matches) {
+            const carousel = new bootstrap.Carousel(multipleItemCarousel, {
+                interval: false // Disable Bootstrap's built-in interval
+            });
+
+            var carouselWidth = $(".carousel-inner")[0].scrollWidth;
+            var cardWidth = $(".carousel-item").width();
+            var scrollPosition = 0;
+            var autoSlideInterval = 3000; // 3 seconds
+
+            function nextSlide() {
+                if (scrollPosition < carouselWidth - cardWidth * 3) {
+                    scrollPosition += cardWidth;
+                    $(".carousel-inner").animate({
+                        scrollLeft: scrollPosition
+                    }, 800);
+                } else {
+                    scrollPosition = 0;
+                    $(".carousel-inner").animate({
+                        scrollLeft: scrollPosition
+                    }, 800);
+                }
+            }
+
+            // Handle next slide button click
+            $(".carousel-control-next").on("click", function() {
+                nextSlide();
+            });
+
+            // Handle previous slide button click
+            $(".carousel-control-prev").on("click", function() {
+                if (scrollPosition > 0) {
+                    scrollPosition -= cardWidth;
+                    $(".carousel-inner").animate({
+                        scrollLeft: scrollPosition
+                    }, 800);
+                }
+            });
+
+            // Auto slide functionality
+            setInterval(function() {
+                nextSlide();
+            }, autoSlideInterval);
+
+        } else {
+            // For smaller screens, add Bootstrap class for sliding automatically
+            $(multipleItemCarousel).addClass("slide");
+        }
+    </script>
 </body>
 
 </html>
