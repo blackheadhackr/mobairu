@@ -7,11 +7,17 @@ class Form_sub extends CI_Controller {
         $this->load->model('form_inset');
     }
     public function  insert_data(){
+    //    $getloc = json_decode(file_get_contents("http://ipinfo.io/"));
+    //     echo "<pre>";
+    //     print_r($getloc);
+    
+
+    //     exit;
        
        $this->form_validation->set_rules('page', 'Page', 'required');
        $this->form_validation->set_rules('Name', 'Name', 'required');
        $this->form_validation->set_rules('Email', 'Email', 'required|valid_email');
-       $this->form_validation->set_rules('phone', 'Phone', 'trim|required|min_length[10]|max_length[12]');
+       $this->form_validation->set_rules('phone', 'Phone', 'trim|required|min_length[10]|max_length[12]|numeric');
        $this->form_validation->set_rules('location', 'location', 'required');
        $this->form_validation->set_rules('Message', 'Message', 'required');
     //    message change 
@@ -46,7 +52,10 @@ class Form_sub extends CI_Controller {
         }else{
             $all_data = array(
                 'result' => "error",
-                'message' => "Sorry! we are facing some issue. Please give us some time"
+                'message' => '<div class="alert alert-warning alert-dismissible fade show" role="alert">
+                    <strong>Sorry! </strong> we are facing some issue. Please give us some time.
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                    </div>'
             );
         }
        }

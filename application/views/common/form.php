@@ -60,7 +60,17 @@
                         $('#phoneer').html(data.phone);
                         $('#locationer').html(data.location);
                         $('#messageer').html(data.message);
+                    }else{
+                        Swal.fire({
+                        position: "top-end",
+                        icon: "success",
+                        title: data.message,
+                        showConfirmButton: false,
+                        timer: 3000
+                        });
+                        $('#laptop-form')[0].reset();
                     }
+                 
                 }
             });
         });
