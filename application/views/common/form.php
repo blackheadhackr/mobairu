@@ -5,29 +5,35 @@
                 <p class="form_heading form_heading_scroll">Expert Technicians <br>for your <span class="typed-text">
                     </span><span class="cursor blink">&nbsp;</span></p>
             </div>
-            <form action="#" method="post">
+            <!-- <form action="<?=base_url('insert-data')?>" method="post"> -->
+            <form id="laptop-form">
                 <input class="form-control" id="page" type="hidden" name="page" value="<?= $this->uri->segment(1)?>">
                 <div class="form-group">
                     <label for="name" class="my-1">Name</label>
-                    <input class="form-control" id="name" type="text" name="Name">
+                    <input class="form-control" id="name" type="text" name="Name" required>
+                    <div class="text-danger" id="nameer"></div>
                 </div>
                 <div class="form-group">
                     <label for="email" class="my-1">Email</label>
-                    <input class="form-control" id="email" type="email" name="Email">
+                    <input class="form-control" id="email" type="email" name="Email" required>
+                    <div class="text-danger" id="emailer"></div>
                 </div>
                 <div class="form-group">
                     <label for="phone" class="my-1">Mobile No.</label>
-                    <input class="form-control" id="phone" type="phone" name="phone">
+                    <input class="form-control" id="phone" type="phone" name="phone" required>
+                    <div class="text-danger" id="phoneer"></div>
                 </div>
                 <div class="form-group">
                     <label for="location" class="my-1">Location</label>
-                    <input class="form-control" id="location" type="location" name="location">
+                    <input class="form-control" id="location" type="location" name="location" required>
+                    <div class="text-danger" id="locationer"></div>
                 </div>
                 <div class="form-group">
                     <label for="message" class="my-1">Message</label>
-                    <textarea class="form-control" id="message" rows="1" name="Message"></textarea>
+                    <textarea class="form-control" id="message" rows="1" name="Message" required></textarea>
+                    <div class="text-danger" id="messageer"></div>
                 </div>
-                <button type="submit" name="submit" id="send-message" class="form-control btn check-price button my-1">
+                <button type="submit" class="form-control btn check-price button my-1">
                     <span id="shine-disaa" class="shine"></span>
                     <span id="hideen-text" class="checkPriceBtn reqbtn">REQUEST CALL BACK</span></button>
         </div>
@@ -35,103 +41,138 @@
     </div>
 </div>
 
+
+<!-- this is for form submit and validation -->
 <script>
-const typedText = document.querySelector(".typed-text");
-const cursor = document.querySelector(".cursor");
+    $(document).ready(function(){
+        $(document).on('submit','#laptop-form', function(e){
+            e.preventDefault()
+            // var data = $('#laptop-form').serialize();
+            $.ajax({
+                url : "<?=base_url('insert-data')?>",
+                type: "post",
+                data : $('#laptop-form').serialize(),
+                dataType : "json",
+                success : function(data){
+                    if(data.result == "error"){
+                        $('#nameer').html(data.name);
+                        $('#emailer').html(data.email);
+                        $('#phoneer').html(data.phone);
+                        $('#locationer').html(data.location);
+                        $('#messageer').html(data.message);
+                    }
+                }
+            });
+        });
+    });
+</script>
 
-const textArray = ["iPhone", "iPad ", "Apple Watch"];
 
-let textArrayIndex = 0;
-let charIndex = 0;
 
-const erase = () => {
-    if (charIndex > 0) {
-        cursor.classList.remove('blink');
-        typedText.textContent = textArray[textArrayIndex].slice(0, charIndex - 1);
-        charIndex--;
-        setTimeout(erase, 80);
-    } else {
-        cursor.classList.add('blink');
-        textArrayIndex++;
-        if (textArrayIndex > textArray.length - 1) {
-            textArrayIndex = 0;
+
+
+
+
+
+
+
+<script>
+    const typedText = document.querySelector(".typed-text");
+    const cursor = document.querySelector(".cursor");
+
+    const textArray = ["iPhone", "iPad ", "Apple Watch"];
+
+    let textArrayIndex = 0;
+    let charIndex = 0;
+
+    const erase = () => {
+        if (charIndex > 0) {
+            cursor.classList.remove('blink');
+            typedText.textContent = textArray[textArrayIndex].slice(0, charIndex - 1);
+            charIndex--;
+            setTimeout(erase, 80);
+        } else {
+            cursor.classList.add('blink');
+            textArrayIndex++;
+            if (textArrayIndex > textArray.length - 1) {
+                textArrayIndex = 0;
+            }
+            setTimeout(type, 1000);
         }
-        setTimeout(type, 1000);
-    }
-}
-
-const type = () => {
-    if (charIndex <= textArray[textArrayIndex].length - 1) {
-        cursor.classList.remove('blink');
-        typedText.textContent += textArray[textArrayIndex].charAt(charIndex);
-        charIndex++;
-        setTimeout(type, 120);
-    } else {
-        cursor.classList.add('blink');
-        setTimeout(erase, 1000);
-    }
-}
-
-document.addEventListener("DOMContentLoaded", () => {
-    type();
-})
-
-var TxtType = function(el, toRotate, period) {
-    this.toRotate = toRotate;
-    this.el = el;
-    this.loopNum = 0;
-    this.period = parseInt(period, 10) || 2000;
-    this.txt = '';
-    this.tick();
-    this.isDeleting = false;
-};
-
-TxtType.prototype.tick = function() {
-    var i = this.loopNum % this.toRotate.length;
-    var fullTxt = this.toRotate[i];
-
-    if (this.isDeleting) {
-        this.txt = fullTxt.substring(0, this.txt.length - 1);
-    } else {
-        this.txt = fullTxt.substring(0, this.txt.length + 1);
     }
 
-    this.el.innerHTML = '<span class="wrap">' + this.txt + '</span>';
-
-    var that = this;
-    var delta = 200 - Math.random() * 100;
-
-    if (this.isDeleting) {
-        delta /= 2;
+    const type = () => {
+        if (charIndex <= textArray[textArrayIndex].length - 1) {
+            cursor.classList.remove('blink');
+            typedText.textContent += textArray[textArrayIndex].charAt(charIndex);
+            charIndex++;
+            setTimeout(type, 120);
+        } else {
+            cursor.classList.add('blink');
+            setTimeout(erase, 1000);
+        }
     }
 
-    if (!this.isDeleting && this.txt === fullTxt) {
-        delta = this.period;
-        this.isDeleting = true;
-    } else if (this.isDeleting && this.txt === '') {
+    document.addEventListener("DOMContentLoaded", () => {
+        type();
+    })
+
+    var TxtType = function(el, toRotate, period) {
+        this.toRotate = toRotate;
+        this.el = el;
+        this.loopNum = 0;
+        this.period = parseInt(period, 10) || 2000;
+        this.txt = '';
+        this.tick();
         this.isDeleting = false;
-        this.loopNum++;
-        delta = 500;
-    }
+    };
 
-    setTimeout(function() {
-        that.tick();
-    }, delta);
-};
+    TxtType.prototype.tick = function() {
+        var i = this.loopNum % this.toRotate.length;
+        var fullTxt = this.toRotate[i];
 
-window.onload = function() {
-    var elements = document.getElementsByClassName('typewrite');
-    for (var i = 0; i < elements.length; i++) {
-        var toRotate = elements[i].getAttribute('data-type');
-        var period = elements[i].getAttribute('data-period');
-        if (toRotate) {
-            new TxtType(elements[i], JSON.parse(toRotate), period);
+        if (this.isDeleting) {
+            this.txt = fullTxt.substring(0, this.txt.length - 1);
+        } else {
+            this.txt = fullTxt.substring(0, this.txt.length + 1);
         }
-    }
-    // INJECT CSS
-    var css = document.createElement("style");
-    css.type = "text/css";
-    css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
-    document.body.appendChild(css);
-};
+
+        this.el.innerHTML = '<span class="wrap">' + this.txt + '</span>';
+
+        var that = this;
+        var delta = 200 - Math.random() * 100;
+
+        if (this.isDeleting) {
+            delta /= 2;
+        }
+
+        if (!this.isDeleting && this.txt === fullTxt) {
+            delta = this.period;
+            this.isDeleting = true;
+        } else if (this.isDeleting && this.txt === '') {
+            this.isDeleting = false;
+            this.loopNum++;
+            delta = 500;
+        }
+
+        setTimeout(function() {
+            that.tick();
+        }, delta);
+    };
+
+    window.onload = function() {
+        var elements = document.getElementsByClassName('typewrite');
+        for (var i = 0; i < elements.length; i++) {
+            var toRotate = elements[i].getAttribute('data-type');
+            var period = elements[i].getAttribute('data-period');
+            if (toRotate) {
+                new TxtType(elements[i], JSON.parse(toRotate), period);
+            }
+        }
+        // INJECT CSS
+        var css = document.createElement("style");
+        css.type = "text/css";
+        css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
+        document.body.appendChild(css);
+    };
 </script>

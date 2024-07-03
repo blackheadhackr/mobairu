@@ -55,3 +55,6 @@ $route['translate_uri_dashes'] = FALSE;
 // this route use for set url as per seo
 $route['iphone-repair-gurgaon'] = 'Main/iphone_repair_gurugram';
 $route['seed'] = 'Main/seed';
+
+// try 
+$route['insert-data'] = 'form_sub/insert_data';

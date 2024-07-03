@@ -9,3 +9,6 @@
     <link href="https://fonts.googleapis.com/css?family=Playfair&#43;Display:700,900&amp;display=swap" rel="stylesheet">
     <link rel="stylesheet" href="<?= base_url('assets/css/custome.css') ?>">
     <link rel="stylesheet" href="<?= base_url('assets/css/responsive.css') ?>">
+
+    <!-- jquery and ajax -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
