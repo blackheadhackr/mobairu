@@ -10,6 +10,10 @@ class Main extends CI_Controller {
 	public function iphone_repair_gurugram(){
 		$this->load->view('gurgaon/iphone-repair-gurgaon');
 	}
+	public function iphone_repair_delhi(){
+		$this->load->view('delhi/iphone_repair_services_in_delhi');
+	}
+
 	//  seed page function start -------------------------------------
 	public function seed(){
 		$this->load->view('seed/seed.php');

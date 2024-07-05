@@ -7,12 +7,13 @@ class Form_sub extends CI_Controller {
         $this->load->model('form_inset');
     }
     public function  insert_data(){
-    //    $getloc = json_decode(file_get_contents("http://ipinfo.io/"));
-    //     echo "<pre>";
-    //     print_r($getloc);
+        // this code for getting ip address and location -------------------------------->
+        //    $getloc = json_decode(file_get_contents("http://ipinfo.io/"));
+        //     echo "<pre>";
+        //     print_r($getloc);
     
 
-    //     exit;
+        // this code end for getting ip address and location -------------------------------->
        
        $this->form_validation->set_rules('page', 'Page', 'required');
        $this->form_validation->set_rules('Name', 'Name', 'required');

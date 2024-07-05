@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.84.0">
-    <title>Blog Template · Bootstrap v5.0</title>
+    <title>iPhone Repair Service </title>
 <!-- common css and all-link include here  -->
     <?php $this->load->view('common/head'); ?>
     <style>
@@ -48,49 +48,30 @@
                 <article class="blog-post pb-4 mb-4">
                     <!-- h1 section here -->
                     <section class="my-2">
-                        <h1 class="blog-post-title">iPhone Repair Service in Nehru Place </h1>
+                        <h1 class="blog-post-title">iPhone Repair Service:</h1>
                         <div class="heading_septrater"></div>
 
-                        <p class="service_offer_para">Mobairu is your trusted partner for iPhone repair in Nehru Place.
-                            Our
-                            skilled technicians specialize in fixing all iPhone issues, from cracked screens and battery
-                            problems to water damage and camera repairs. We use only genuine parts to ensure your iPhone
-                            works perfectly. Enjoy the convenience of our doorstep service, or visit our store for fast,
-                            reliable repairs. With transparent pricing, quick turnaround times, and a focus on customer
-                            satisfaction. Trust us to get your iPhone back to its optimal condition. Contact Mobairu
-                            today
-                            for professional iPhone repair services.
+                        <p class="service_offer_para">Mobairu is your ultimate destination for all your iPhone Repair needs. Our expert technicians are equipped to handle a wide range of issues. No matter what issues your device may be having, just bring it to us or call our technician at your doorstep, we will get fixed in no time. Our commitment to excellence means you can have peace of mind knowing that your device is in good hands.  
+                        </p>
+                        <p class="service_offer_para">At Mobairu, we use only the OEM or quality parts to ensure your iPhone functions like new. Whether it's a minor fix or a major repair, you can trust Mobairu to restore your device promptly and efficiently. Trust Mobairu for reliable, affordable, and efficient iPhone repairs that you can count on. 
                         </p>
                     </section>
                     <!-- h2 section  -->
                     <section class="my-2">
-                        <h2 class="blog-post-title">Get Your iPhone Repaired at Your Doorstep in Nehru Place. </h2>
+                        <h2 class="blog-post-title">Get Your iPhone Repair with Up to 1-Year Warranty at Mobairu: </h2>
                         <div class="heading_septrater"></div>
-                        <p class="service_offer_para">Get your iPhone repaired at your doorstep in Nehru Place with
-                            Mobairu's convenient and professional service. Our certified technicians come to your
-                            location
-                            fully equipped to handle a wide range of iPhone issues, from screen replacements and battery
-                            changes to camera repairs and water damage fixes. This hassle-free service eliminates the
-                            need
-                            for you to travel or wait in long queues, ensuring your iPhone is repaired quickly and
-                            efficiently. </p>
+                        <p class="service_offer_para">We believe in the quality of our iPhone repair services, which is why we offer an assured warranty of up to 1 year on all repairs which is rarely provided by other repair services. Our skilled technicians use OEM or high-quality parts to ensure your iPhone functions like new. </p>
 
-                        <p class="service_offer_para">Simply book an appointment, and our experts will arrive at your
-                            doorstep, providing high-quality repairs with genuine parts. Experience the ease and
-                            reliability
-                            of Mobairu's doorstep iPhone repair service in Nehru Place. Contact us today to schedule
-                            your
-                            repair. </p>
+                        <p class="service_offer_para">Whether it's a screen replacement, battery issue, or water damage repair or any other issues. You can trust that our repairs are built to last. If any issue arises within the warranty period, simply bring your iPhone back to us, and we'll address it at no additional cost.</p>
+
+                        <p class="service_offer_para">Your satisfaction and peace of mind is our top priorities. Choose us for reliable, efficient, and guaranteed iPhone repair services.</p>
 
                     </section>
                     <!-- cost section -->
                     <section class="my-2">
-                        <h2 class="blog-post-title">How Much Does iPhone Repair Cost in Nehru Place? </h2>
+                        <h2 class="blog-post-title">How Much Does it cost to repair iPhone? </h2>
                         <div class="heading_septrater"></div>
-                        <p class="service_offer_para">The <strong>cost of iPhone repair starts from INR with an Assured
-                                Warranty of up to 1 year</strong>. The exact cost of repair purely varies depending on
-                            the
-                            type of issues and overall extent of damage, etc. </p>
+                        <p class="service_offer_para">The <b>Cost of iPhone repair starts from INR with an Assured Warranty of up to 1 Year</b>. The exact cost of repair purely depends on the type of issue and overall duration of warranty is being offered on that service etc. </p>
                     </section>
                     <!-- form section  -->
                     <div class="container-sm">
@@ -117,13 +98,9 @@
                     </section>
                     <!-- table -->
                     <section class="my-2">
-                        <h2 class="blog-post-title">List of Mobairu's iPhone Repair Services in Nehru Place: </h2>
+                        <h2 class="blog-post-title">iPhone repair Services Offered by Mobairu and its Cost: </h2>
                         <div class="heading_septrater"></div>
-                        <p class="service_offer_para">We offer a comprehensive range of iPhone repair services in Nehru
-                            Place to ensure your device is functioning perfectly. Our skilled technicians use genuine
-                            parts
-                            and the latest tools to provide high-quality repairs. Here are some of the key services we
-                            offer: </p>
+                        <p class="service_offer_para">We provide a comprehensive range of iPhone repair services to address all your device needs. Our services include:  </p>
                         
 
 
@@ -132,18 +109,33 @@
                             <table id="customers">
                                 <tr>
                                     <!-- <th class="hd">S. No.</th> -->
-                                    <th>Services</th>
+                                    <th>Name of Service </th>
                                     <th>Price</th>
                                 </tr>
                                 <tr>
                                     <!-- <td>1</td> -->
-                                    <td><i class="bi bi-check-circle"></i> Macbook screen repair</td>
-                                    <td>₹1999</td>
+                                    <td><i class="bi bi-check-circle"></i> Screen Repair</td>
+                                    <td>₹</td>
                                 </tr>
                                 <tr>
                                     <!-- <td>2</td> -->
-                                    <td><i class="bi bi-check-circle"></i> Macbook battery repair</td>
-                                    <td>₹2999</td>
+                                    <td><i class="bi bi-check-circle"></i> Battery Replacement </td>
+                                    <td>₹</td>
+                                </tr>
+                                <tr>
+                                    <!-- <td>2</td> -->
+                                    <td><i class="bi bi-check-circle"></i> Water Damage Repair </td>
+                                    <td>₹</td>
+                                </tr>
+                                <tr>
+                                    <!-- <td>2</td> -->
+                                    <td><i class="bi bi-check-circle"></i> Camera Repair </td>
+                                    <td>₹</td>
+                                </tr>
+                                <tr>
+                                    <!-- <td>2</td> -->
+                                    <td><i class="bi bi-check-circle"></i> Button Repair </td>
+                                    <td>₹</td>
                                 </tr>
                             </table>
                             </div>
@@ -154,74 +146,52 @@
 
 
 
-                        <p class="service_offer_para">Our commitment is to provide quick, reliable, and efficient
-                            repairs.
-                            Contact Mobairu today to book any of our iPhone repair services and get your device running
-                            like
-                            new again.
+                        <p class="service_offer_para">No matter the issue, Mobairu has the expertise to get your iPhone back in perfect working condition. Contact us today to schedule your repair and get it repaired by the expert technicians.
                         </p>
 
                     </section>
                     <!-- Procedure -->
                     <section class="my-2">
-                        <h3 class="blog-post-title">Mobairu's iPhone Repair Procedure: </h3>
+                        <h3 class="blog-post-title">Mobairu’s Standard Procedure to Repairs Your iPhone:  </h3>
                         <div class="heading_septrater"></div>
-                        <p class="service_offer_para">At Mobairu, we follow a meticulous iPhone repair procedure to
-                            ensure
-                            that every device receives the highest quality service. Our process is designed to be
-                            efficient,
-                            transparent, and convenient for our customers. Here's how it works: </p>
+                        <p class="service_offer_para">Mobairu’s repair process is designed to provide quick, efficient, and high-quality service which same or similar to the Apple's standards. Here’s how we do it: </p>
 
                         <ul class="survice_ul">
-                            <li><strong>Diagnosis : </strong> Our certified technician conducts a thorough diagnosis to
-                                identify the issue with your iPhone. </li>
+                            <li><strong>Diagnosis: </strong>  Our expert technicians thoroughly inspect your iPhone to accurately identify the issue. We use advanced diagnostic tools to ensure nothing is overlooked. 
+                            </li>
 
-                            <li><strong>Repair : </strong> Upon approval, we proceed with the repair using genuine parts
-                                and
-                                advanced tools. </li>
+                            <li><strong>Repair : </strong>Using high-quality parts that meet same or similar Apple's standards, we perform the necessary repairs. Whether it’s a screen replacement, battery change, or any other issue, our technicians apply their extensive expertise to restore your iPhone to optimal condition.</li>
 
-                            <li><strong>Testing : </strong> After the repair, we perform comprehensive testing to ensure
-                                your iPhone is functioning perfectly. </li>
+                            <li><strong>Testing : </strong> After the repair, we rigorously test your iPhone to ensure all functions are working perfectly. This includes checking the screen, battery life, camera, buttons, and any other repaired components. </li>
 
-                            <li><strong>Delivery : </strong> Finally, your repaired iPhone is delivered back to you,
-                                either
-                                at our store or through our convenient doorstep service. </li>
+                            <li><strong>Quality Check : </strong>  We conduct a meticulous quality check to ensure that it is working as intended. This step ensures that our repairs are reliable and long-lasting. 
+                            </li>
+
+                            <li><strong> Warranty : </strong>   We provide an assured warranty of up to 1 year on all repairs, reflecting our confidence in the quality of our work and giving you peace of mind.
+                            </li>
 
                         </ul>
-                        <p class="service_offer_para">Trust Mobairu for a seamless and professional iPhone repair
-                            experience. Contact us today to schedule your repair and get your iPhone back to optimal
-                            condition. </p>
+                        <p class="service_offer_para">Bring your iPhone to Mobairu and experience professional, reliable iPhone repair services that meet Apple's standards but all at an affordable cost.</p>
                     </section>
                     <!-- why to choose -->
                     <section class="my-2">
-                        <h4 class="blog-post-title">Why Choose Mobairu for Your iPhone Repair in Nehru Place </h4>
+                        <h4 class="blog-post-title">Why Choose Mobairu for Your iPhone Repair </h4>
                         <div class="heading_septrater"></div>
-                        <p class="service_offer_para">Mobairu is your go-to choice for iPhone repair in Nehru Place,
-                            offering exceptional service and expertise. Here's why you should choose us: </p>
+                        <p class="service_offer_para">We at Mobairu, committed to provide exceptional iPhone repair services that you can trust. Here’s why you should choose us : </p>
 
                         <ul class="survice_ul">
-                            <li><strong>Expert Technicians : </strong> Our team consists of certified and experienced
-                                technicians who can handle any iPhone issue. </li>
+                            <li><strong> Experienced Technicians : </strong> Our team consists of skilled professionals with extensive expertise in iPhone repairs.  </li>
 
-                            <li><strong> Genuine Parts: </strong> We use only high-quality, genuine parts to ensure the
-                                longevity and performance of your iPhone. </li>
+                            <li><strong> High-Quality Parts: </strong>  We use only the best parts that meet or exceed Apple's standards, ensuring durability and performance.  </li>
 
-                            <li><strong> Convenient Doorstep Service:</strong> Enjoy the convenience of our doorstep
-                                repair
-                                service, saving you time and effort. </li>
+                            <li><strong> Comprehensive Warranty : </strong>  Enjoy up to a 1-year warranty on all repairs, giving you peace of mind.  </li>
 
-                            <li><strong> Quick Turnaround: </strong> We understand the importance of your device, so we
-                                offer fast and efficient repairs to minimize downtime. </li>
+                            <li><strong>  Fast Turnaround : </strong> Most repairs are completed within the same day, so you won't be without your device for long.  </li>
 
-                            <li><strong> Transparent Pricing: </strong> Our pricing is competitive and transparent, with
-                                no
-                                hidden fees. </li>
+                            <li><strong> Competitive Pricing: </strong> We offer high-quality repairs at affordable prices. </li>
 
                         </ul>
-                        <p class="service_offer_para">Experience the best in iPhone repair with Mobairu. Contact us
-                            today to
-                            schedule your repair and let us get your iPhone back to its optimal condition swiftly and
-                            professionally. </p>
+                        <p class="service_offer_para">Trust us for reliable, efficient, and affordable iPhone repair services. Contact us today to schedule your repair. Get your device repaired at your doorstep or call us to pick-up your device or you can also courier your device to us, we will repair it and send it back to you. </p>
                     </section>
                     <!-- option available -->
                     <!-- <section class="my-2">
@@ -254,34 +224,35 @@
                         <div class="container p-2">
                             <h3 class="mb-3">FAQ <a href="#">Dharmender</a></h3>
                             <div class="accordion accordion-flush" id="accordionFlushExample">
+
                                 <div class="accordion-item rounded-3 border-0 shadow mb-2">
                                     <h2 class="accordion-header">
                                         <button class="accordion-button border-bottom collapsed fw-semibold Question"
                                             type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
                                             aria-expanded="false" aria-controls="flush-collapseOne">
-                                            How long does iPhone screen repair take?
+                                            How long does an iPhone repair take?
                                         </button>
                                     </h2>
                                     <div id="flush-collapseOne" class="accordion-collapse collapse"
                                         data-bs-parent="#accordionFlushExample">
                                         <div class="accordion-body Answer">
-                                            <p>Screen repairs typically take 30-60 minutes, depending on the model and
-                                                extent of damage. </p>
+                                            <p>Most iPhone repairs are completed within the same day, ensuring you get your device back quickly and efficiently. </p>
                                         </div>
                                     </div>
                                 </div>
+
                                 <div class="accordion-item rounded-3 border-0 shadow mb-2">
                                     <h2 class="accordion-header">
                                         <button class="accordion-button border-bottom collapsed fw-semibold"
                                             type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo"
                                             aria-expanded="false" aria-controls="flush-collapseTwo">
-                                            Do you provide a warranty on repairs?
+                                            Do you use genuine Apple parts?
                                         </button>
                                     </h2>
                                     <div id="flush-collapseTwo" class="accordion-collapse collapse"
                                         data-bs-parent="#accordionFlushExample">
                                         <div class="accordion-body">
-                                            <p>Yes, we offer a warranty on all iPhone repairs for peace of mind. </p>
+                                            <p>We use high-quality parts that meets Apple's standards to ensure optimal performance and durability. </p>
                                         </div>
                                     </div>
                                 </div>
@@ -291,15 +262,13 @@
                                             type="button" data-bs-toggle="collapse"
                                             data-bs-target="#flush-collapseThree" aria-expanded="false"
                                             aria-controls="flush-collapseThree">
-                                            Can you repair water-damaged iPhones?
+                                            Is there a warranty on the repairs?
                                         </button>
                                     </h2>
                                     <div id="flush-collapseThree" class="accordion-collapse collapse"
                                         data-bs-parent="#accordionFlushExample">
                                         <div class="accordion-body">
-                                            <p>Yes, we specialize in repairing water-damaged iPhones with our
-                                                comprehensive
-                                                service. </p>
+                                            <p>Yes, all our repairs come with an assured warranty of up to 1 year, providing you with peace of mind. </p>
                                         </div>
                                     </div>
                                 </div>
@@ -308,14 +277,13 @@
                                         <button class="accordion-button border-bottom collapsed fw-semibold"
                                             type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsefour"
                                             aria-expanded="false" aria-controls="flush-collapsefour">
-                                            Do you use genuine parts for repairs?
+                                            Can you repair water-damaged iPhones?
                                         </button>
                                     </h2>
                                     <div id="flush-collapsefour" class="accordion-collapse collapse"
                                         data-bs-parent="#accordionFlushExample">
                                         <div class="accordion-body">
-                                            <p>Absolutely, we use only genuine parts to ensure quality and compatibility
-                                                with your iPhone. </p>
+                                            <p>Yes, we specialize in repairing water-damaged iPhones, restoring them to full functionality using advanced techniques. </p>
                                         </div>
                                     </div>
                                 </div>
@@ -324,15 +292,13 @@
                                         <button class="accordion-button border-bottom collapsed fw-semibold"
                                             type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsefive"
                                             aria-expanded="false" aria-controls="flush-collapsefive">
-                                            Is doorstep repair available in Nehru Place?
+                                            Do I need to make an appointment for my repair?
                                         </button>
                                     </h2>
                                     <div id="flush-collapsefive" class="accordion-collapse collapse"
                                         data-bs-parent="#accordionFlushExample">
                                         <div class="accordion-body">
-                                            <p>Absolutely, we use only genuine parts to ensure quality and compatibility
-                                                with your iPhone. Yes, we offer convenient doorstep repair services
-                                                throughout Nehru Place for your convenience. </p>
+                                            <p>While appointments are recommended for faster service, we also welcome walk-ins at our repair centers.  </p>
                                         </div>
                                     </div>
                                 </div>
