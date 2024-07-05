@@ -148,31 +148,22 @@
                     <section class="my-2">
                         <h4 class="blog-post-title">Why Choose Mobairu for Your iPhone Repair in Delhi: </h4>
                         <div class="heading_septrater"></div>
-                        <p class="service_offer_para">When it comes to iPhone repair services, Mobairu stands out as your reliable and trusted partner. Here's why you should choose us: </p>
+                        <p class="service_offer_para">When it comes to <a href="http://mobairu.in/iphone-repair">iPhone repair services</a>, Mobairu stands out as your reliable and trusted partner. Here's why you should choose us: </p>
 
                         <ul class="survice_ul">
-                            <li><strong>Expert Technicians : </strong> Our team consists of certified and experienced
-                                technicians who can handle any iPhone issue. </li>
+                            <li><strong>Free Diagnosis : </strong>  We offer a thorough diagnosis of your iPhone's issue at no cost. </li>
 
-                            <li><strong> Genuine Parts: </strong> We use only high-quality, genuine parts to ensure the
-                                longevity and performance of your iPhone. </li>
+                            <li><strong> Expert Technicians : </strong>  Our team comprises certified and experienced technicians proficient in iPhone repair. </li>
 
-                            <li><strong> Convenient Doorstep Service:</strong> Enjoy the convenience of our doorstep
-                                repair
-                                service, saving you time and effort. </li>
+                            <li><strong> Genuine Parts : </strong>  We use only original parts to ensure the longevity and performance of your device. </li>
 
-                            <li><strong> Quick Turnaround: </strong> We understand the importance of your device, so we
-                                offer fast and efficient repairs to minimize downtime. </li>
+                            <li><strong> Convenient Service : </strong>  Enjoy our doorstep repair service at your preferred location and time.</li>
 
-                            <li><strong> Transparent Pricing: </strong> Our pricing is competitive and transparent, with
-                                no
-                                hidden fees. </li>
+                            <li><strong> Affordable Pricing : </strong>  We offer competitive prices without compromising on quality. </li>
+                            <li><strong> Customer Satisfaction : </strong>   Your satisfaction is our priority, and we strive to provide excellent service. </li>
 
                         </ul>
-                        <p class="service_offer_para">Experience the best in iPhone repair with Mobairu. Contact us
-                            today to
-                            schedule your repair and let us get your iPhone back to its optimal condition swiftly and
-                            professionally. </p>
+                        <p class="service_offer_para">Experience the difference with Mobairu. Contact us today to schedule your iPhone repair service in Delhi and get your device back to its best. </p>
                     </section>
                     <!-- option available -->
                     <!-- <section class="my-2">
@@ -209,14 +200,13 @@
                                         <button class="accordion-button border-bottom collapsed fw-semibold Question"
                                             type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
                                             aria-expanded="false" aria-controls="flush-collapseOne">
-                                            How long does iPhone screen repair take?
+                                            Do you use genuine Apple parts?
                                         </button>
                                     </h2>
                                     <div id="flush-collapseOne" class="accordion-collapse collapse"
                                         data-bs-parent="#accordionFlushExample">
                                         <div class="accordion-body Answer">
-                                            <p>Screen repairs typically take 30-60 minutes, depending on the model and
-                                                extent of damage. </p>
+                                            <p>We use high-quality parts that meet Apple's standards to ensure optimal performance and durability. </p>
                                         </div>
                                     </div>
                                 </div>
@@ -225,13 +215,13 @@
                                         <button class="accordion-button border-bottom collapsed fw-semibold"
                                             type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo"
                                             aria-expanded="false" aria-controls="flush-collapseTwo">
-                                            Do you provide a warranty on repairs?
+                                            Is there a warranty on the repairs?
                                         </button>
                                     </h2>
                                     <div id="flush-collapseTwo" class="accordion-collapse collapse"
                                         data-bs-parent="#accordionFlushExample">
                                         <div class="accordion-body">
-                                            <p>Yes, we offer a warranty on all iPhone repairs for peace of mind. </p>
+                                            <p>Yes, all our repairs come with a warranty of up to one year, providing you with peace of mind. </p>
                                         </div>
                                     </div>
                                 </div>
@@ -241,15 +231,13 @@
                                             type="button" data-bs-toggle="collapse"
                                             data-bs-target="#flush-collapseThree" aria-expanded="false"
                                             aria-controls="flush-collapseThree">
-                                            Can you repair water-damaged iPhones?
+                                            How long does an iPhone repair take?
                                         </button>
                                     </h2>
                                     <div id="flush-collapseThree" class="accordion-collapse collapse"
                                         data-bs-parent="#accordionFlushExample">
                                         <div class="accordion-body">
-                                            <p>Yes, we specialize in repairing water-damaged iPhones with our
-                                                comprehensive
-                                                service. </p>
+                                            <p>Repairs are usually done with in 2-4 hours or with in a day but complex cases may takes longer time than usual. </p>
                                         </div>
                                     </div>
                                 </div>
@@ -258,18 +246,17 @@
                                         <button class="accordion-button border-bottom collapsed fw-semibold"
                                             type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsefour"
                                             aria-expanded="false" aria-controls="flush-collapsefour">
-                                            Do you use genuine parts for repairs?
+                                            Can you repair water-damaged iPhones?
                                         </button>
                                     </h2>
                                     <div id="flush-collapsefour" class="accordion-collapse collapse"
                                         data-bs-parent="#accordionFlushExample">
                                         <div class="accordion-body">
-                                            <p>Absolutely, we use only genuine parts to ensure quality and compatibility
-                                                with your iPhone. </p>
+                                            <p>Yes, we specialize in repairing water-damaged iPhones, restoring them to full functionality using advanced techniques. </p>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="accordion-item rounded-3 border-0 mb-2 shadow">
+                                <!-- <div class="accordion-item rounded-3 border-0 mb-2 shadow">
                                     <h2 class="accordion-header">
                                         <button class="accordion-button border-bottom collapsed fw-semibold"
                                             type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsefive"
@@ -285,7 +272,7 @@
                                                 throughout Nehru Place for your convenience. </p>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     </section>
