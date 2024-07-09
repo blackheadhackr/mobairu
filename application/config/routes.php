@@ -56,6 +56,7 @@ $route['translate_uri_dashes'] = FALSE;
 $route['iphone-repair-gurgaon'] = 'Main/iphone_repair_gurugram';
 $route['seed'] = 'Main/seed';
 $route['iphone-repair-delhi'] = 'main/iphone_repair_delhi';
+$route['iphone-battery-repair-delhi'] = 'main/iphone_battery_repair_delhi';
 
 // form ---------------- Don't Remove This ------------------------ 
 $route['insert-data'] = 'form_sub/insert_data';

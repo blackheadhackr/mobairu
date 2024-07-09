@@ -13,6 +13,9 @@ class Main extends CI_Controller {
 	public function iphone_repair_delhi(){
 		$this->load->view('delhi/iphone_repair_services_in_delhi');
 	}
+	public function iphone_battery_repair_delhi(){
+		$this->load->view('delhi/iphone_battery_repair');
+	}
 
 	//  seed page function start -------------------------------------
 	public function seed(){
